@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.pyc
 .venv/
@@ -23,3 +23,4 @@ extracted/
 report/Индивидуальное_задание*
 report/Отчет_*.docx
 report/Отчет_*.md
+scripts/generate_report.py

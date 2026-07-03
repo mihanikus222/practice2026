@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large dataset and model weights (excluded from repo)
+data/raw/images/
+data/raw/masks/
+runs/**/*.pt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Office lock files
+~$*

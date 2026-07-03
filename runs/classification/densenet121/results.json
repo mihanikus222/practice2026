@@ -1,0 +1,69 @@
+{
+  "task": "classification",
+  "model": "densenet121",
+  "input_size": 256,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "batch_size": 16,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        46,
+        0
+      ],
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  "inference_ms_per_image": 182.86679999437183,
+  "model_size_mb": 26.53467559814453,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.2970815385105433,
+      "val_accuracy": 0.8888888888888888,
+      "val_precision": 0.8181818181818182,
+      "val_recall": 1.0,
+      "val_f1": 0.9
+    },
+    {
+      "epoch": 2,
+      "loss": 0.11207207437190744,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    },
+    {
+      "epoch": 3,
+      "loss": 0.054603836257700565,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    },
+    {
+      "epoch": 4,
+      "loss": 0.09545178807995937,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    },
+    {
+      "epoch": 5,
+      "loss": 0.02301115853091081,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    }
+  ]
+}

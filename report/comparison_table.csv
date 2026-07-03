@@ -1,0 +1,11 @@
+Задача,Модель,Input size,Эпохи,"Время инференса, мс","Размер модели, МБ",IoU,Dice/F1,Pixel Accuracy,Accuracy,Precision,Recall,F1
+segmentation,deeplabv3_mobilenet,256,6,88.17,42.05,0.2689,0.4238,0.985,,,,
+segmentation,deeplabv3_resnet50,256,6,1052.02,160.21,0.4022,0.5736,0.9847,,,,
+segmentation,fcn_resnet50,256,6,610.33,134.7,0.4144,0.586,0.9878,,,,
+segmentation,unet,256,6,158.39,1.8,0.6162,0.7625,0.9921,,,,
+segmentation,unet_small,256,6,161.6,1.8,0.6162,0.7625,0.9921,,,,
+classification,densenet121,256,5,182.87,26.53,,,,1.0,1.0,1.0,1.0
+classification,efficientnet_b0,256,5,62.01,15.3,,,,1.0,1.0,1.0,1.0
+classification,mobilenet_v3_small,256,5,17.72,5.8,,,,1.0,1.0,1.0,1.0
+classification,resnet18,256,5,69.55,42.64,,,,1.0,1.0,1.0,1.0
+classification,vit_b_16,224,5,269.96,327.3,,,,0.4945,0.4945,1.0,0.6618

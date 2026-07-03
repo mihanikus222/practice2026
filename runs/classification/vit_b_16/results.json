@@ -1,0 +1,69 @@
+{
+  "task": "classification",
+  "model": "vit_b_16",
+  "input_size": 224,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "batch_size": 16,
+  "metrics": {
+    "accuracy": 0.4945054945054945,
+    "precision": 0.4945054945054945,
+    "recall": 1.0,
+    "f1": 0.6617647058823529,
+    "confusion_matrix": [
+      [
+        0,
+        46
+      ],
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  "inference_ms_per_image": 269.9631750001572,
+  "model_size_mb": 327.30176544189453,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.892465004214534,
+      "val_accuracy": 0.5,
+      "val_precision": 0.0,
+      "val_recall": 0.0,
+      "val_f1": 0.0
+    },
+    {
+      "epoch": 2,
+      "loss": 0.7107789163236264,
+      "val_accuracy": 0.5111111111111111,
+      "val_precision": 1.0,
+      "val_recall": 0.022222222222222223,
+      "val_f1": 0.043478260869565216
+    },
+    {
+      "epoch": 3,
+      "loss": 0.712925136089325,
+      "val_accuracy": 0.5,
+      "val_precision": 0.5,
+      "val_recall": 1.0,
+      "val_f1": 0.6666666666666666
+    },
+    {
+      "epoch": 4,
+      "loss": 0.716638030829253,
+      "val_accuracy": 0.5,
+      "val_precision": 0.5,
+      "val_recall": 1.0,
+      "val_f1": 0.6666666666666666
+    },
+    {
+      "epoch": 5,
+      "loss": 0.6877255980615262,
+      "val_accuracy": 0.5,
+      "val_precision": 0.5,
+      "val_recall": 1.0,
+      "val_f1": 0.6666666666666666
+    }
+  ]
+}

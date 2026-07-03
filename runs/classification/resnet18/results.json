@@ -1,0 +1,69 @@
+{
+  "task": "classification",
+  "model": "resnet18",
+  "input_size": 256,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "batch_size": 16,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        46,
+        0
+      ],
+      [
+        0,
+        45
+      ]
+    ]
+  },
+  "inference_ms_per_image": 69.55066500231624,
+  "model_size_mb": 42.63892364501953,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.19432793980188393,
+      "val_accuracy": 0.8222222222222222,
+      "val_precision": 1.0,
+      "val_recall": 0.6444444444444445,
+      "val_f1": 0.7837837837837838
+    },
+    {
+      "epoch": 2,
+      "loss": 0.01728213067959856,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    },
+    {
+      "epoch": 3,
+      "loss": 0.014629403698361583,
+      "val_accuracy": 0.6444444444444445,
+      "val_precision": 0.5844155844155844,
+      "val_recall": 1.0,
+      "val_f1": 0.7377049180327869
+    },
+    {
+      "epoch": 4,
+      "loss": 0.03562821188286223,
+      "val_accuracy": 0.9222222222222223,
+      "val_precision": 0.8653846153846154,
+      "val_recall": 1.0,
+      "val_f1": 0.9278350515463918
+    },
+    {
+      "epoch": 5,
+      "loss": 0.08130255561425453,
+      "val_accuracy": 1.0,
+      "val_precision": 1.0,
+      "val_recall": 1.0,
+      "val_f1": 1.0
+    }
+  ]
+}

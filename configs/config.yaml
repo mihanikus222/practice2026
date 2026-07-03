@@ -1,0 +1,25 @@
+seed: 42
+image_size: 256
+batch_size: 16
+epochs_classification: 5
+epochs_segmentation: 6
+learning_rate: 0.001
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
+num_samples: 600
+device: cpu
+
+classification_models:
+  - resnet18
+  - mobilenet_v3_small
+  - efficientnet_b0
+  - densenet121
+  - vit_b_16
+
+segmentation_models:
+  - unet
+  - deeplabv3_resnet50
+  - fcn_resnet50
+  - unet_small
+  - deeplabv3_mobilenet

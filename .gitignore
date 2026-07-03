@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.pyc
 .venv/
@@ -13,5 +13,13 @@ runs/**/*.pt
 .DS_Store
 Thumbs.db
 
-# Office lock files
+# Office documents and lock files
+*.docx
+*.doc
 ~$*
+
+# Assignment extracts and personal report drafts (local only)
+extracted/
+report/Индивидуальное_задание*
+report/Отчет_*.docx
+report/Отчет_*.md

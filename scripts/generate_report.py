@@ -242,9 +242,15 @@ def main() -> None:
     add_paragraph(doc, "Приложение В. Примеры визуализации в каталоге runs/demo_outputs/.")
 
     out = root / "report" / "Отчет_практика_вариант9.docx"
+    out_github = root / "report" / "Отчет_практика_вариант9_github.docx"
     out.parent.mkdir(parents=True, exist_ok=True)
-    doc.save(out)
-    print(f"Отчёт сохранён: {out}")
+    try:
+        doc.save(out)
+        saved = out
+    except PermissionError:
+        doc.save(out_github)
+        saved = out_github
+    print(f"Отчёт сохранён: {saved}")
 
 
 if __name__ == "__main__":

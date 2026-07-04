@@ -27,3 +27,8 @@ report/Отчет_*.md
 
 # Local report generator (not in repo)
 scripts/generate_report.py
+
+# Practice diary and schedule (local only)
+report/Дневник_*
+report/План_график*
+scripts/generate_diary.py

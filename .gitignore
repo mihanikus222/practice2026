@@ -17,10 +17,10 @@ Thumbs.db
 *.docx
 *.doc
 ~$*
+report/~*
 
 # Assignment extracts and personal report drafts (local only)
 extracted/
 report/Индивидуальное_задание*
 report/Отчет_*.docx
 report/Отчет_*.md
-scripts/generate_report.py
